@@ -2,6 +2,9 @@
 
 @section('content')
 <!-- nav-side -->
+
+    <h1 class="title mid"><span>All</span>Hotels</h1>
+
 <div class="items bg-foto">
     <!-- list items -->
     <div class="col-9 bg-foto">
