@@ -540,5 +540,21 @@ padding: 0 30px;
 }
 
 }
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    color:orangered;
+    font-size: 2.2rem;
+    font-weight: 800;
+    text-transform: capitalize;
+    text-shadow: 2px 4px 3px rgb(0 0 0 / 10%);
+    width: 100%;
 
-/* carusel */
+}
+
+.title span{
+    color:  black;
+}
+
