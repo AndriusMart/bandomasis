@@ -108,7 +108,7 @@ class HotelController extends Controller
                 'title' => 'required|min:3',
                 'price' => 'required|numeric',
                 'photo.*' => 'sometimes|required|mimes:jpg|max:5000',
-                'time' => 'required|min:3',
+                'time' => 'required|min:1',
             ],
         );
 

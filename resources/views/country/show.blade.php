@@ -8,7 +8,6 @@
                                     <div class="card">
                                         <div class="card-header">
                                             <h2>Category</h2>
-                                            <a href="{{route('c_index')}}" class="close"><span class="sr-only">Close</span></a>
                                         </div>
                                         <div class="card-body">
                                             <div class="category">
