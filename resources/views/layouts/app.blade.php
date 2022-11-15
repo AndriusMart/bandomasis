@@ -53,6 +53,7 @@
                         </li>
                         @endif
                         @else
+                        @if(Auth::user()->role >=10)
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -62,11 +63,10 @@
                                 <a class="dropdown-item" href="{{ route('c_index') }}">
                                     List
                                 </a>
-                                @if(Auth::user()->role >=10)
+                                
                                 <a class="dropdown-item" href="{{ route('c_create') }}">
                                     Add country
                                 </a>
-                                @endif
                             </div>
                         </li>
                         <li class="nav-item dropdown">
@@ -78,13 +78,12 @@
                                 <a class="dropdown-item" href="{{ route('m_index') }}">
                                     List
                                 </a>
-                                @if(Auth::user()->role >=10)
                                 <a class="dropdown-item" href="{{ route('m_create') }}">
                                     Add hotel
                                 </a>
-                                @endif
                             </div>
                         </li>
+                        @endif
                         <li >
                             <a  class="nav-link " href="{{ route('o_index') }}">
                                 Orders
