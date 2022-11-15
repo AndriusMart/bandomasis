@@ -14,6 +14,10 @@ class Hotel extends Model
 
 
     const SORT_SELECT = [
+        ['title_asc', 'Titile A-Z'],
+        ['title_desc', 'Titile Z-A'],
+        ['rate_asc', 'Rating 1-9'],
+        ['rate_desc', 'Rating 9-1'],
         ['price_asc', 'Price 1-9'],
         ['price_desc', 'Price 9-1'],
     ];

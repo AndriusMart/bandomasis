@@ -3,7 +3,7 @@
 @section('content')
 <div class="container --content">
     <div class="row justify-content-center">
-        <div class="col-9">
+        <div class="col-12">
             <div class="card">
                 <div class="card-header">
                     <h2>Countries</h2>
@@ -12,7 +12,7 @@
                     <ul class="list-group">
                         @forelse($countries as $country)
                         <li class="list-group-item">
-                            <div class="categories-list">
+                            <div class="hotels-list">
                                 <div class="content">
                                     <h2>{{$country->title}}</h2>
 

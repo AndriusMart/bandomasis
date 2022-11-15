@@ -45,7 +45,7 @@ class HotelController extends Controller
             [
                 'title' => 'required|min:3',
                 'price' => 'required|numeric',
-                'time' => 'required|min:2',
+                'time' => 'required|min:1',
             ],
         );
 

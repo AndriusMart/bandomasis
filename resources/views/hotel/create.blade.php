@@ -3,7 +3,7 @@
 @section('content')
 <div  class="container">
     <div class="row justify-content-center">
-        <div class="col-7">
+        <div class="col-12">
             <div class="card">
                 <div class="card-header">
                     <h2>New Hotel</h2>
@@ -19,7 +19,7 @@
                             <input type="text" name="price" class="form-control" value="{{old('price')}}">
                         </div>
                         <div class="input-group mb-3">
-                            <span class="input-group-text">Time</span>
+                            <span class="input-group-text">Time in days</span>
                             <input type="text" name="time" class="form-control" value="{{old('time')}}">
                         </div>
                         <select name="country_id" class="form-select mt-3">
